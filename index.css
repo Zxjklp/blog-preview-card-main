@@ -125,7 +125,7 @@ body {
 }
 
 .category,
-.title h1,
+.title,
 .blogger-name {
   font-weight: 800;
 }
@@ -149,18 +149,18 @@ body {
   font-size: 0.9rem;
 }
 
-.title {
-  display: inline-block;
+.title-link {
   text-decoration: none;
-  color: var(--Gray-950);
+  color: inherit;
   transition: color 0.2s ease;
 }
 
-.title:hover {
+.title-link:hover {
   color: var(--Yellow);
 }
 
-.title h1 {
+.title {
+  display: inline-block;
   font-size: 1.5rem;
 }
 
@@ -204,7 +204,7 @@ body {
     font-size: 0.75rem;
   }
 
-  .title h1 {
+  .title {
     font-size: 1.21rem;
   }
 
