@@ -131,10 +131,8 @@ body {
 }
 
 .illustration {
-  min-height: 201px;
-  background-image: url("./assets/images/illustration-article.svg");
-  background-position: bottom;
-  background-size: cover;
+  width: 100%;
+  object-fit: cover;
   border-radius: 10px;
   margin-bottom: 0.6rem;
 }
@@ -149,21 +147,21 @@ body {
 
 .published {
   font-size: 0.9rem;
-  margin-bottom: 1rem;
 }
 
 .title {
+  display: inline-block;
   text-decoration: none;
   color: var(--Gray-950);
-}
-
-.title h1 {
-  font-size: 1.5rem;
   transition: color 0.2s ease;
 }
 
 .title:hover {
   color: var(--Yellow);
+}
+
+.title h1 {
+  font-size: 1.5rem;
 }
 
 .description {
@@ -178,12 +176,39 @@ body {
 
 .blogger-avatar {
   width: 2rem;
-  height: 2rem;
+  height: 2.031rem;
   margin-right: 0.6rem;
-  border-radius: 50%;
 }
 
 .blogger-name {
   font-size: 0.9rem;
-  margin: 0;
+  margin-top: 0;
+}
+
+@media (max-width: 375px) {
+  .blog-preview-card {
+    max-width: 20.438rem;
+    padding: 1rem;
+    box-shadow: 5px 5px 0 rgb(0, 0, 0);
+  }
+
+  .illustration {
+    min-height: 12.5rem;
+  }
+
+  .category {
+    font-size: 0.8rem;
+  }
+
+  .published {
+    font-size: 0.75rem;
+  }
+
+  .title h1 {
+    font-size: 1.21rem;
+  }
+
+  .description {
+    font-size: 0.85rem;
+  }
 }
