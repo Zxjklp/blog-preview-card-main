@@ -112,7 +112,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100svh;
+  min-height: 100svh; /* Using svh to account for mobile browser UI changes */
 }
 
 .blog-preview-card {
