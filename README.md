@@ -2,8 +2,8 @@ This is a solution to the [Blog Preview Card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add your solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add your live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/blog-preview-card-eBCwplxvdX](https://www.frontendmentor.io/solutions/blog-preview-card-eBCwplxvdX)
+- Live Site URL: [https://zxjklp.github.io/blog-preview-card-main/](https://zxjklp.github.io/blog-preview-card-main/)
 
 ### Built With
 
@@ -11,16 +11,7 @@ This is a solution to the [Blog Preview Card challenge on Frontend Mentor](https
 - CSS custom properties
 - Flexbox
 
-### What I Learned
-
-In this project, I learned how to:
-
-- Use semantic HTML elements to improve accessibility and SEO.
-- Apply CSS custom properties for better maintainability.
-- Utilize Flexbox for layout and alignment.
-- Implement responsive design using media queries.
-
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Zxjklp)
-- GitHub - [@yourusername](https://github.com/Zxjklp)
+- Frontend Mentor - [@Zxjklp](https://www.frontendmentor.io/profile/Zxjklp)
+- GitHub - [@Zxjklp](https://github.com/Zxjklp)
