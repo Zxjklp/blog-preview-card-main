@@ -185,7 +185,7 @@ body {
   margin-top: 0;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 23.4375rem) {
   .blog-preview-card {
     max-width: 20.438rem;
     padding: 1rem;
